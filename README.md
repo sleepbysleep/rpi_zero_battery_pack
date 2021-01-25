@@ -7,6 +7,10 @@ This includes KiCad files with schematic, PCB, and 3D View.
 ```{r image-ref-for-in-text, echo = FALSE, message=FALSE, fig.align='center', fig.cap='Schematic', out.width='0.75\\linewidth', fig.pos='H'}
 knitr::include_graphics("./rpi_zero_battery_pack.sch.pdf")
 ```
+```{r, out.width="0.3\\linewidth", include=TRUE, fig.align="center", fig.cap=c("your caption"), echo=FALSE}
+knitr::include_graphics("./rpi_zero_battery_pack.sch.pdf")
+```
+
 # pcb
 ![PCB image](./rpi_zero_battery_pack.kicad_pcb.png)
 
