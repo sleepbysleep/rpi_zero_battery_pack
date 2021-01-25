@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name UJ31-CH-3-SMT-TR)(type KiCad)(uri ${KIPRJMOD}/UJ31-CH-3-SMT-TR)(options "")(descr ""))
+  (lib (name Inductor_SMD-extra)(type KiCad)(uri ${KIPRJMOD}/Inductor_SMD-extra.pretty)(options "")(descr ""))
+  (lib (name Connector_JST-extra)(type KiCad)(uri ${KIPRJMOD}/Connector_JST-extra.pretty)(options "")(descr ""))
+)
