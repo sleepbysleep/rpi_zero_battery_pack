@@ -4,12 +4,12 @@ Please refer https://github.com/NeonHorizon/lipopi
 This includes KiCad files with schematic, PCB, and 3D View.
 
 # circuit
-```{r image-ref-for-in-text, echo = FALSE, message=FALSE, fig.align='center', fig.cap='Schematic', out.width='0.75\\linewidth', fig.pos='H'}
-knitr::include_graphics("./rpi_zero_battery_pack.sch.pdf")
-```
-```{r, out.width="0.3\\linewidth", include=TRUE, fig.align="center", fig.cap=c("your caption"), echo=FALSE}
-knitr::include_graphics("./rpi_zero_battery_pack.sch.pdf")
-```
+
+<object data="./rpi_zero_battery_pack.sch.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="./rpi_zero_battery_pack.sch.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./rpi_zero_battery_pack.sch.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 # pcb
 ![PCB image](./rpi_zero_battery_pack.kicad_pcb.png)
